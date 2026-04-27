@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global noise texture overlay */
+body::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 9998;
+  opacity: 0.035;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='300' height='300' filter='url(%23n)' opacity='1'/%3E%3C/svg%3E");
+  background-size: 200px 200px;
+}
+
+/* Infinite marquee keyframes */
+@keyframes marquee-r {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-33.333%); }
+}
+@keyframes marquee-l {
+  from { transform: translateX(-33.333%); }
+  to   { transform: translateX(0); }
+}
+.marquee-r {
+  animation: marquee-r 28s linear infinite;
+  display: flex;
+  width: 300%;
+}
+.marquee-l {
+  animation: marquee-l 34s linear infinite;
+  display: flex;
+  width: 300%;
+}
+.marquee-r:hover,
+.marquee-l:hover {
+  animation-play-state: paused;
+}
+
+/* Pulsing green dot */
+@keyframes pulse-dot {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50%       { opacity: 0.5; transform: scale(1.4); }
+}
+.pulse-dot {
+  animation: pulse-dot 2s ease-in-out infinite;
+}
+
+/* No sharp corners anywhere — enforce globally */
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
