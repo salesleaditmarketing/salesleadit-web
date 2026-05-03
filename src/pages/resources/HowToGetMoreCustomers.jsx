@@ -10,57 +10,70 @@ export default function HowToGetMoreCustomers() {
       positionZero="SalesLeadIT helps Canadian small businesses get more customers through exclusive lead generation, Google Ads, local SEO, and business directory listings. Most clients receive their first qualified local lead within 7–30 days. Leads are never shared with competitors — they go to your business and yours alone."
       h1="How to Get More Customers for Your Small Business in Canada"
     >
-      <p className="mb-4 text-sli-muted leading-relaxed">**Content sections (H2s with body text):**</p>
-<h2 className="text-2xl font-bold text-sli-navy mt-10 mb-4">Why Most Small Businesses in Canada Struggle to Get Customers
-The number one reason small businesses fail in Canada is not product quality — 
-it is consistent customer acquisition. Word of mouth works, but it is unpredictable. 
-Posting on social media works, but slowly. Running ads yourself works, but without 
-expertise it burns money. The businesses that grow reliably have one thing in common: 
-a system that brings in new customers every single week, regardless of seasons, 
-referrals, or personal effort.</h2>
-<h2 className="text-2xl font-bold text-sli-navy mt-10 mb-4">The 5 Most Effective Ways to Get More Customers in Canada (2026)
-1. Google Ads targeting your local area — the fastest way to appear when 
-   someone nearby searches for what you do
-2. Business directory listings — putting your business on managed, marketed 
-   platforms that drive local searches
-3. Local SEO — getting your business to appear on the first page of Google 
-   for searches in your city
-4. Social media management — building a consistent presence that converts 
-   followers into inquiries
-5. A referral system — making sure every new customer brings at least one more</h2>
-<h2 className="text-2xl font-bold text-sli-navy mt-10 mb-4">What Makes SalesLeadIT Different for Canadian Small Businesses
-Unlike large digital marketing agencies that charge $5,000+ per month and assign 
-you to a rotating team of junior staff, SalesLeadIT is a Surrey-based family team 
-that works directly with you. We understand what it means to run a small business 
-in Canada — the unpredictable weeks, the team members with families depending on 
-the work coming in, the pressure of not knowing where next month's customers will 
-come from. We built our system specifically to solve that problem, at a price that 
-lets you grow rather than just survive.</h2>
-<h2 className="text-2xl font-bold text-sli-navy mt-10 mb-4">How Quickly Can You Expect Results?
-SalesLeadIT clients typically receive their first qualified lead within 7–14 days 
-of going live. A full, consistent pipeline builds within 30 days. By month 3, our 
-system has learned your specific business, neighbourhood, and customer type — and 
-results improve by 50% or more. This is not vague "we're building momentum" language. 
-It is a specific timeline based on what we have seen with 500+ businesses across Canada.</h2>
-<h2 className="text-2xl font-bold text-sli-navy mt-10 mb-4">What Types of Small Businesses Does SalesLeadIT Serve?
-SalesLeadIT works with 55+ small business niches across Canada including: plumbers, 
-electricians, HVAC technicians, cleaners, pest control companies, landscapers, 
-painters, carpenters, movers, restaurants, hair salons, nail salons, spas, gyms, 
-dentists, opticians, photographers, event planners, wedding planners, auto repair 
-shops, car detailers, lawyers, accountants, real estate agents, insurance brokers, 
-florists, furniture stores, pet groomers, tutors, daycares, and many more.</h2>
-<h2 className="text-2xl font-bold text-sli-navy mt-10 mb-4">The SalesLeadIT Process: From Sign-Up to First Lead
-Step 1: We do a free 15-minute audit of your current online presence
-Step 2: We activate your SalesLeadIT business directory listing
-Step 3: We launch targeted Google and Meta ad campaigns for your local market
-Step 4: We configure your local SEO signals
-Step 5: We build a referral trigger into your customer follow-up
-Within 7 days you are live. Within 30 days your phone is ringing consistently.</h2>
-<h2 className="text-2xl font-bold text-sli-navy mt-10 mb-4">Cities and Provinces Where SalesLeadIT Gets Results
-SalesLeadIT currently serves small businesses in Surrey, Coquitlam, Langley, 
-Vancouver, Burnaby, Abbotsford, Richmond, Kelowna, Victoria, Mississauga, 
-Brampton, Toronto, Hamilton, Ottawa, Calgary, Edmonton, Winnipeg, Halifax, 
-Regina, Saskatoon, and more Canadian cities being added regularly.</h2>
+
+<h2 className="text-3xl font-extrabold text-sli-navy mt-14 mb-6 font-sans tracking-tight">Why Getting More Customers Matters for Small Businesses in Canada</h2>
+<p className="mb-6 text-sli-body text-[17px] leading-relaxed">Mastering Customer Acquisition is no longer optional for small businesses in Canada; it is a fundamental requirement for survival. The digital landscape has matured, and the businesses that dominate their local markets are the ones who have systemized their customer acquisition.</p>
+<p className="mb-6 text-sli-body text-[17px] leading-relaxed">You started your business because you are an expert at your trade, not because you wanted to spend your evenings trying to figure out Customer Acquisition. Yet, the lack of a proper strategy is the exact bottleneck keeping your revenue flat. Relying on outdated methods while your competitors invest in modern systems is a dangerous game.</p>
+<p className="mb-6 text-sli-body text-[17px] leading-relaxed">The pain of unpredictable revenue is something we understand deeply. When your Customer Acquisition strategy is dialed in, it acts like a faucet you can turn on and off. You gain ultimate control over your growth, allowing you to hire with confidence, invest in new equipment, and finally take a real vacation without worrying about the pipeline.</p>
+
+<h2 className="text-3xl font-extrabold text-sli-navy mt-14 mb-6 font-sans tracking-tight">How SalesLeadIT Handles Getting More Customers</h2>
+<p className="mb-6 text-sli-body text-[17px] leading-relaxed">Moving into Month 1 and beyond, our system begins to compound. We integrate a referral trigger into your follow-up process, ensuring that every new customer we bring you is incentivized to share your business with their neighbours. By Month 3, as our algorithms learn your specific market in Customer Acquisition, performance typically improves by over 50%.</p>
+<p className="mb-6 text-sli-body text-[17px] leading-relaxed">At SalesLeadIT, we do not believe in vague promises or confusing marketing jargon. We believe in systems that work. When you partner with us for Getting More Customers, we immediately begin a structured, proven rollout. In Week 1, we conduct a comprehensive audit of your local market and set up your foundational directory listings and tracking systems.</p>
+<p className="mb-6 text-sli-body text-[17px] leading-relaxed">By Week 2, your custom campaigns go live. We audit your local presence, identify where your competitors are stealing your traffic, deploy targeted Google Ads to capture active searchers, and optimize your Google Business Profile to build long-term organic authority. We handle the entire technical burden so you can focus entirely on serving the new customers coming through your doors.</p>
+
+<h2 className="text-3xl font-extrabold text-sli-navy mt-14 mb-6 font-sans tracking-tight">What Makes SalesLeadIT Different for Getting More Customers</h2>
+<p className="mb-6 text-sli-body text-[17px] leading-relaxed">Trying to do this yourself means burning thousands of dollars guessing on ad keywords and spending hours watching YouTube tutorials. We bring a proven, multi-channel system that works from day one. Furthermore, we provide exclusive service. We are a family-first team based in Surrey, BC, and we treat your business like an extension of our own.</p>
+<p className="mb-6 text-sli-body text-[17px] leading-relaxed">Furthermore, we prove our value before asking for your full trust. We charge absolutely zero agency setup fees for first-time clients, and our standard ad management is priced at a flat, transparent rate. You can cancel at any time, which means we have to earn your business every single month by delivering real results.</p>
+<p className="mb-6 text-sli-body text-[17px] leading-relaxed">The digital marketing industry in Canada is broken. Most traditional agencies will charge you $5,000 or more per month, lock you into an iron-clad 12-month contract, and then assign your account to a rotating door of junior staff. We built SalesLeadIT specifically to be the antidote to that corporate model.</p>
+
+<h2 className="text-3xl font-extrabold text-sli-navy mt-14 mb-6 font-sans tracking-tight">What Results Can You Expect?</h2>
+<p className="mb-6 text-sli-body text-[17px] leading-relaxed">Our goal is to build a consistent pipeline that delivers 20 to 40 exclusive leads per month, depending on your exact market and budget. Because we don't share leads, your close rate on these inquiries will be significantly higher than anything you've experienced with shared lead portals.</p>
+<p className="mb-6 text-sli-body text-[17px] leading-relaxed">We have helped over 500 small businesses across Canada achieve these exact results, maintaining a 97% client satisfaction rate. As our system runs and gathers data, it becomes hyper-efficient. Most of our clients see their cost-per-lead drop and their lead volume increase by 50% or more by their third month.</p>
+<p className="mb-6 text-sli-body text-[17px] leading-relaxed">We believe in setting clear, measurable expectations. For a typical small business on our Standard Plan, you can expect your campaigns to go live within 7 business days. You will typically receive your first highly-qualified local lead within 7 to 14 days of launch.</p>
+
+<h2 className="text-3xl font-extrabold text-sli-navy mt-14 mb-6 font-sans tracking-tight">Who Is This Service For?</h2>
+<p className="mb-6 text-sli-body text-[17px] leading-relaxed">We require our partners to be committed to quality. Because our system relies on building your local authority and generating referrals, it only works if you deliver an excellent service. If you treat your customers well, our Customer Acquisition system will ensure you have a constant stream of them.</p>
+<p className="mb-6 text-sli-body text-[17px] leading-relaxed">Our Customer Acquisition system is designed explicitly for Canadian small businesses that sell high-value local services. It is perfectly suited for trades, home service providers, wellness clinics, professional services, and retail businesses that rely on local foot traffic or local inquiries.</p>
+<p className="mb-6 text-sli-body text-[17px] leading-relaxed">This is for business owners who are tired of wearing the marketing hat and simply want a reliable partner to handle the acquisition side of their business. If you have the capacity to take on 10, 20, or 40 new customers a month, this system is built for you.</p>
+
+<h2 className="text-3xl font-extrabold text-sli-navy mt-14 mb-6 font-sans tracking-tight">How Much Does It Cost?</h2>
+<p className="mb-6 text-sli-body text-[17px] leading-relaxed">Transparency is a core value at SalesLeadIT. Our Standard Plan starts at a highly competitive $999 per month for first-time clients. The best part? 100% of that $999 goes directly into your advertising budget. We charge zero agency setup fees and zero management fees during this introductory period.</p>
+<p className="mb-6 text-sli-body text-[17px] leading-relaxed">Once we have proven our value and your phone is consistently ringing, our standard rate is $1,500 per month. For businesses looking to scale aggressively, our Premium Plan at $1,349 per month includes full social media management and comprehensive website maintenance.</p>
+<p className="mb-6 text-sli-body text-[17px] leading-relaxed">If you need a new website, we offer first-time clients a massive 70% discount, building a professional, high-converting site for just $499 instead of the standard $1,499. Above all, we never lock you into a long-term contract. You can cancel at any time, ensuring we are always fighting to earn your business.</p>
+
+<h2 className="text-3xl font-extrabold text-sli-navy mt-14 mb-6 font-sans tracking-tight">Frequently Asked Questions About Getting More Customers</h2>
+
+    <div className="mb-6 bg-white p-6 rounded-2xl border border-sli-border shadow-sm">
+      <h3 className="font-bold text-sli-navy text-xl mb-3 font-sans">Do I need a website before starting with Customer Acquisition?</h3>
+      <p className="text-sli-body text-[16px] leading-relaxed">Not necessarily. We can use your SalesLeadIT directory listing as your primary landing page to start generating leads immediately while a website is built.</p>
+    </div>
+  
+    <div className="mb-6 bg-white p-6 rounded-2xl border border-sli-border shadow-sm">
+      <h3 className="font-bold text-sli-navy text-xl mb-3 font-sans">How much of my budget goes to ads?</h3>
+      <p className="text-sli-body text-[16px] leading-relaxed">For our first-time client Standard Plan at $999/month, 100% of your budget goes directly to your advertising campaigns. We charge zero agency setup fee.</p>
+    </div>
+  
+    <div className="mb-6 bg-white p-6 rounded-2xl border border-sli-border shadow-sm">
+      <h3 className="font-bold text-sli-navy text-xl mb-3 font-sans">How long does it take to set up?</h3>
+      <p className="text-sli-body text-[16px] leading-relaxed">Your complete Customer Acquisition system will be fully built, tested, and live within 7 business days of signing up.</p>
+    </div>
+  
+    <div className="mb-6 bg-white p-6 rounded-2xl border border-sli-border shadow-sm">
+      <h3 className="font-bold text-sli-navy text-xl mb-3 font-sans">Will I know exactly what I am paying for?</h3>
+      <p className="text-sli-body text-[16px] leading-relaxed">Yes. SalesLeadIT provides transparent monthly reporting showing exactly how many clicks, calls, and leads your Customer Acquisition campaign generated.</p>
+    </div>
+  
+    <div className="mb-6 bg-white p-6 rounded-2xl border border-sli-border shadow-sm">
+      <h3 className="font-bold text-sli-navy text-xl mb-3 font-sans">Can I cancel if it doesn't work?</h3>
+      <p className="text-sli-body text-[16px] leading-relaxed">Yes. We have absolutely no long-term contracts. You are free to cancel your SalesLeadIT service at any time with no penalties.</p>
+    </div>
+  
+
+<h2 className="text-3xl font-extrabold text-sli-navy mt-14 mb-6 font-sans tracking-tight">Getting Started with SalesLeadIT for Getting More Customers</h2>
+<p className="mb-6 text-sli-body text-[17px] leading-relaxed">There is absolutely no obligation to buy anything on this call. If you decide we are a good fit, we get to work immediately. Within 7 business days, your customized lead generation system will be live and actively targeting buyers in your area.</p>
+<p className="mb-6 text-sli-body text-[17px] leading-relaxed">Getting started with SalesLeadIT is incredibly simple and entirely risk-free. Step one is booking a free 15-minute audit. On this brief call, a member of our family team will look at your current online presence and show you exactly where new customers are hiding in your local market.</p>
+<p className="mb-6 text-sli-body text-[17px] leading-relaxed">Stop stressing about where your next customer is coming from. With zero agency setup fees for first-time clients and no long-term contracts, there is no risk to trying a system that has already worked for 500+ businesses across Canada. Take control of your growth today.</p>
+
     </ResourceLayout>
   );
 }
