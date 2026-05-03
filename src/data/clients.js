@@ -1,22 +1,22 @@
 export const clients = [
   {
     name: "Newton Pest Control",
-    img: "https://www.salesleadit.com/wp-content/uploads/2025/08/newton-pest-control-home.jpg"
+    img: "https://images.pexels.com/photos/5824901/pexels-photo-5824901.jpeg?auto=compress&cs=tinysrgb&w=600"
   },
   {
     name: "Bro Tent & Party Rentals",
-    img: "https://www.salesleadit.com/wp-content/uploads/2025/07/bro-tent-and-party-rentals.jpg"
+    img: "https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=600"
   },
   {
     name: "TJ Steam Carpet Cleaning",
-    img: "https://www.salesleadit.com/wp-content/uploads/2025/07/tj-steam-carpet-cleaning.jpg"
+    img: "https://images.pexels.com/photos/4686835/pexels-photo-4686835.jpeg?auto=compress&cs=tinysrgb&w=600"
   },
   {
     name: "Choice Furniture",
-    img: "https://www.salesleadit.com/wp-content/uploads/2025/07/choice-furniture.jpg"
+    img: "https://images.pexels.com/photos/1350789/pexels-photo-1350789.jpeg?auto=compress&cs=tinysrgb&w=600"
   },
   {
     name: "Tent Master",
-    img: "https://www.salesleadit.com/wp-content/uploads/2025/07/tent-master.jpg"
+    img: "https://images.pexels.com/photos/1024960/pexels-photo-1024960.jpeg?auto=compress&cs=tinysrgb&w=600"
   }
 ]

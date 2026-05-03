@@ -70,16 +70,15 @@ export default function Stats() {
         <div className="relative z-10 flex flex-col lg:flex-row items-center gap-16">
           <div className="flex-1 flex justify-center">
             <div className="relative w-64 h-64 lg:w-80 lg:h-80">
-              <img 
-                src="https://cdn.prod.website-files.com/688d31d885372b14ca5e3d8b/68911ed2da0080a9f83b105b_Circle.avif" 
-                crossOrigin="anonymous" 
-                alt="Performance breakdown"
-                className="w-full h-full object-contain animate-[spin_20s_linear_infinite]"
-              />
+              <svg viewBox="0 0 100 100" className="w-full h-full -rotate-90 drop-shadow-xl animate-[spin_20s_linear_infinite]">
+                <circle cx="50" cy="50" r="40" fill="transparent" stroke="rgba(242, 101, 34, 0.25)" strokeWidth="12" strokeDasharray="25.13 251.327" strokeDashoffset="-226.19" strokeLinecap="butt" />
+                <circle cx="50" cy="50" r="40" fill="transparent" stroke="rgba(242, 101, 34, 0.55)" strokeWidth="12" strokeDasharray="55.29 251.327" strokeDashoffset="-170.9" strokeLinecap="butt" />
+                <circle cx="50" cy="50" r="40" fill="transparent" stroke="#F26522" strokeWidth="12" strokeDasharray="170.9 251.327" strokeDashoffset="0" strokeLinecap="butt" />
+              </svg>
               <div className="absolute inset-0 flex items-center justify-center">
                 <div className="text-center">
-                  <p className="text-4xl font-extrabold text-sli-orange">85%</p>
-                  <p className="text-[10px] uppercase font-mono text-white/50">Avg Growth</p>
+                  <p className="text-4xl lg:text-5xl font-mono font-bold text-white">85%</p>
+                  <p className="text-[10px] uppercase font-mono text-white/50 tracking-widest mt-1">Avg. Growth</p>
                 </div>
               </div>
             </div>

@@ -8,10 +8,10 @@ export default function Footer() {
           {/* Col 1 — Brand */}
           <div className="space-y-8">
             <img 
-              src="https://www.salesleadit.com/wp-content/uploads/2023/12/logo-e1709706643167.png" 
-              className="h-10" 
-              style={{ filter: 'brightness(0) invert(1)' }} 
-              alt="SalesLeadIT" 
+              src="https://www.salesleadit.com/wp-content/uploads/2023/12/logo-e1709706643167.png"
+              alt="SalesLeadIT"
+              crossOrigin="anonymous"
+              style={{ height: '40px', objectFit: 'contain', filter: 'brightness(0) invert(1)' }}
             />
             <p className="font-sans text-white/60 leading-relaxed max-w-xs">
               Growing small businesses like family. Canada's family-first lead generation team.
@@ -77,9 +77,8 @@ export default function Footer() {
 
         <div className="pt-12 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-6">
           <div className="flex flex-col md:flex-row items-center gap-6">
-            <p className="font-mono text-[10px] text-white/30 uppercase tracking-widest">© 2026 SalesLeadIT. All rights reserved.</p>
             <p className="font-mono text-[10px] text-white/30 uppercase tracking-widest">
-              Powered by <a href="https://nirvanaxjude.com" target="_blank" rel="noopener noreferrer" className="text-white hover:underline decoration-white/30 underline-offset-4">Nirvana x Jude</a>
+              © 2026 SalesLeadIT. All rights reserved. Powered by <a href="https://nirvanaxjude.com" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit', textDecoration: 'underline' }}>Nirvana x Jude</a>
             </p>
           </div>
           <div className="flex gap-8 font-mono text-[10px] text-white/30 uppercase tracking-widest">
