@@ -115,48 +115,50 @@ export default function Hero() {
         {/* Gradient fade */}
         <div className="absolute right-0 top-0 h-full w-1/2 bg-gradient-to-r from-sli-navy via-sli-navy/60 to-transparent hidden lg:block z-10" />
 
-        {/* Content */}
-        <div className="relative z-20 max-w-7xl mx-auto px-6 lg:px-12 py-20 lg:py-0 w-full lg:w-1/2 flex flex-col lg:items-start lg:justify-end lg:pl-12 text-left">
-          {/* Badge */}
-          <div className="hero-anim inline-flex items-center gap-2 bg-sli-orange text-white text-xs font-mono font-semibold uppercase tracking-widest px-4 py-2 rounded-full mb-6 lg:self-start">
-            <img src="https://cdn.prod.website-files.com/688d31d885372b14ca5e3d8b/6890bee0bc046268f9b1496c_magic-wand.svg" className="w-4 h-4" alt="" />
-            Lead Generation Agency
-          </div>
+        {/* Content Wrapper */}
+        <div className="relative z-20 w-full max-w-7xl mx-auto px-6 lg:px-12 pointer-events-none">
+          <div className="py-20 lg:py-0 w-full lg:w-1/2 flex flex-col lg:items-start lg:justify-center text-left pointer-events-auto lg:pr-12">
+            {/* Badge */}
+            <div className="hero-anim inline-flex items-center gap-2 bg-sli-orange text-white text-xs font-mono font-semibold uppercase tracking-widest px-4 py-2 rounded-full mb-6 lg:self-start">
+              <img src="https://cdn.prod.website-files.com/688d31d885372b14ca5e3d8b/6890bee0bc046268f9b1496c_magic-wand.svg" className="w-4 h-4" alt="" />
+              Lead Generation Agency
+            </div>
 
-          {/* H1 */}
-          <h1 className="hero-anim text-left">
-            <span className="block font-sans font-extrabold text-white leading-tight"
-                  style={{ fontSize: 'clamp(2.2rem, 4.5vw, 4.5rem)' }}>
-              We help small businesses
-            </span>
-            <span className="block font-serif italic text-sli-orange leading-none"
-                  style={{ fontSize: 'clamp(3rem, 5.5vw, 5.5rem)' }}>
-              grow like family.
-            </span>
-          </h1>
-
-          {/* Subtext */}
-          <p className="hero-anim mt-6 text-white/75 text-lg leading-relaxed max-w-lg lg:ml-0 text-left font-sans">
-            We're a Surrey-based team of families who understand your struggle.
-            We've cracked the code on getting you consistent local customers and
-            making sure they bring their neighbours too.
-          </p>
-
-          {/* CTAs */}
-          <div className="hero-anim mt-8 flex flex-wrap gap-4 lg:justify-start">
-            <Link to="/get-started"
-              className="relative overflow-hidden group rounded-full px-8 py-4 bg-sli-orange text-white font-sans font-semibold flex items-center gap-2">
-              <span className="absolute inset-0 bg-sli-orange2 -translate-x-full group-hover:translate-x-0 transition-transform duration-300 ease-out" />
-              <span className="relative z-10 flex items-center gap-2">
-                <img src="https://cdn.prod.website-files.com/688d31d885372b14ca5e3d8b/688fd96b8386df55b73b8d7d_Call.svg" className="w-5 h-5" alt="" />
-                Get My Free Audit
+            {/* H1 */}
+            <h1 className="hero-anim text-left">
+              <span className="block font-sans font-extrabold text-white leading-tight"
+                    style={{ fontSize: 'clamp(2.2rem, 4.5vw, 4.5rem)' }}>
+                We help small businesses
               </span>
-            </Link>
-            <a href="#services"
-              className="relative overflow-hidden group rounded-full px-8 py-4 bg-transparent border-2 border-white/50 text-white font-sans font-semibold flex items-center gap-2 hover:border-white/80 hover:-translate-y-[1px] transition-all duration-200">
-              See How It Works
-              <img src="https://cdn.prod.website-files.com/688d31d885372b14ca5e3d8b/688fdea99c92801291dd0db4_Arrow%20White.svg" className="w-4 h-4" alt="" />
-            </a>
+              <span className="block font-serif italic text-sli-orange leading-none"
+                    style={{ fontSize: 'clamp(3rem, 5.5vw, 5.5rem)' }}>
+                grow like family.
+              </span>
+            </h1>
+
+            {/* Subtext */}
+            <p className="hero-anim mt-6 text-white/75 text-lg leading-relaxed max-w-lg lg:ml-0 text-left font-sans">
+              We're a Surrey-based team of families who understand your struggle.
+              We've cracked the code on getting you consistent local customers and
+              making sure they bring their neighbours too.
+            </p>
+
+            {/* CTAs */}
+            <div className="hero-anim mt-8 flex flex-wrap gap-4 lg:justify-start">
+              <Link to="/get-started"
+                className="relative overflow-hidden group rounded-full px-8 py-4 bg-sli-orange text-white font-sans font-semibold flex items-center gap-2">
+                <span className="absolute inset-0 bg-sli-orange2 -translate-x-full group-hover:translate-x-0 transition-transform duration-300 ease-out" />
+                <span className="relative z-10 flex items-center gap-2">
+                  <img src="https://cdn.prod.website-files.com/688d31d885372b14ca5e3d8b/688fd96b8386df55b73b8d7d_Call.svg" className="w-5 h-5" alt="" />
+                  Get My Free Audit
+                </span>
+              </Link>
+              <a href="#services"
+                className="relative overflow-hidden group rounded-full px-8 py-4 bg-transparent border-2 border-white/50 text-white font-sans font-semibold flex items-center gap-2 hover:border-white/80 hover:-translate-y-[1px] transition-all duration-200">
+                See How It Works
+                <img src="https://cdn.prod.website-files.com/688d31d885372b14ca5e3d8b/688fdea99c92801291dd0db4_Arrow%20White.svg" className="w-4 h-4" alt="" />
+              </a>
+            </div>
           </div>
         </div>
       </div>
