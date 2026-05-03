@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { Menu, X } from 'lucide-react'
+import logo from '../assets/sales-lead-it-logo.png'
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false)
@@ -42,7 +43,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between">
           <a href="#hero" className="flex items-center">
             <img 
-              src="https://www.salesleadit.com/wp-content/uploads/2023/12/logo-e1709706643167.png" 
+              src={logo}
               className="h-10 w-auto" 
               crossOrigin="anonymous" 
               style={!scrolled ? { filter: 'brightness(0) invert(1)' } : {}}
@@ -91,7 +92,7 @@ export default function Navbar() {
         <div className="flex flex-col h-full p-8">
           <div className="flex items-center justify-between">
             <img 
-              src="https://www.salesleadit.com/wp-content/uploads/2023/12/logo-e1709706643167.png" 
+              src={logo}
               className="h-10 w-auto" 
               style={{ filter: 'brightness(0) invert(1)' }}
               alt="SalesLeadIT"

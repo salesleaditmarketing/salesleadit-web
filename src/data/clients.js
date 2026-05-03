@@ -1,22 +1,23 @@
+import beeHerbal from '../assets/bee-herbal-2-200x200.png'
+import sriSamraj from '../assets/sri-samraj-labs-1-200x200.png'
+import seiyeAuto from '../assets/seiye-auto-200x200.png'
+import theseFleetingDays from '../assets/these-fleeting-days-1-200x200.png'
+
 export const clients = [
   {
-    name: "Newton Pest Control",
-    img: "https://images.pexels.com/photos/5824901/pexels-photo-5824901.jpeg?auto=compress&cs=tinysrgb&w=600"
+    name: "Bee Herbal",
+    img: beeHerbal
   },
   {
-    name: "Bro Tent & Party Rentals",
-    img: "https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=600"
+    name: "Sri Samraj Labs",
+    img: sriSamraj
   },
   {
-    name: "TJ Steam Carpet Cleaning",
-    img: "https://images.pexels.com/photos/4686835/pexels-photo-4686835.jpeg?auto=compress&cs=tinysrgb&w=600"
+    name: "Seiye Auto",
+    img: seiyeAuto
   },
   {
-    name: "Choice Furniture",
-    img: "https://images.pexels.com/photos/1350789/pexels-photo-1350789.jpeg?auto=compress&cs=tinysrgb&w=600"
-  },
-  {
-    name: "Tent Master",
-    img: "https://images.pexels.com/photos/1024960/pexels-photo-1024960.jpeg?auto=compress&cs=tinysrgb&w=600"
+    name: "These Fleeting Days",
+    img: theseFleetingDays
   }
 ]

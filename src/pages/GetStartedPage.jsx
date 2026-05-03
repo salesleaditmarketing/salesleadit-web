@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { Check, ArrowLeft, Phone, Calendar, Send } from 'lucide-react'
 import { testimonials } from '../data/testimonials'
+import logo from '../assets/sales-lead-it-logo.png'
 
 export default function GetStartedPage() {
   const [step, setStep] = useState(1)
@@ -31,7 +32,7 @@ export default function GetStartedPage() {
           <Link to="/" className="flex items-center mb-20 group">
             <ArrowLeft className="w-5 h-5 text-white/50 group-hover:text-sli-orange group-hover:-translate-x-1 transition-all mr-2" />
             <img 
-              src="https://www.salesleadit.com/wp-content/uploads/2023/12/logo-e1709706643167.png" 
+              src={logo}
               className="h-8" 
               style={{ filter: 'brightness(0) invert(1)' }} 
               alt="SalesLeadIT" 
@@ -87,7 +88,7 @@ export default function GetStartedPage() {
         {/* Mobile Logo */}
         <div className="lg:hidden w-full flex justify-between items-center mb-12">
           <img 
-            src="https://www.salesleadit.com/wp-content/uploads/2023/12/logo-e1709706643167.png" 
+            src={logo}
             className="h-8" 
             alt="SalesLeadIT" 
           />

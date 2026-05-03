@@ -1,4 +1,5 @@
 import { MessageCircle, Camera, Share2, Send } from 'lucide-react'
+import logo from '../assets/sales-lead-it-logo.png'
 
 export default function Footer() {
   return (
@@ -8,7 +9,7 @@ export default function Footer() {
           {/* Col 1 — Brand */}
           <div className="space-y-8">
             <img 
-              src="https://www.salesleadit.com/wp-content/uploads/2023/12/logo-e1709706643167.png"
+              src={logo}
               alt="SalesLeadIT"
               crossOrigin="anonymous"
               style={{ height: '40px', objectFit: 'contain', filter: 'brightness(0) invert(1)' }}
@@ -78,7 +79,7 @@ export default function Footer() {
         <div className="pt-12 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-6">
           <div className="flex flex-col md:flex-row items-center gap-6">
             <p className="font-mono text-[10px] text-white/30 uppercase tracking-widest">
-              © 2026 SalesLeadIT. All rights reserved. Powered by <a href="https://nirvanaxjude.com" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit', textDecoration: 'underline' }}>Nirvana x Jude</a>
+              © 2026 SalesLeadIT. All rights reserved. Powered by SalesLeadIT Technical Team
             </p>
           </div>
           <div className="flex gap-8 font-mono text-[10px] text-white/30 uppercase tracking-widest">

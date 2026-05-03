@@ -21,7 +21,7 @@ export const testimonials = [
     location: "Brampton, ON",
     photo: "https://images.pexels.com/photos/1181690/pexels-photo-1181690.jpeg?auto=compress&cs=tinysrgb&w=150",
     stars: 5,
-    quote: "They treat you like you matter — no corporate attitude, no being passed around. One person who actually knows my business. My spring bookings are completely full for the first time ever."
+    quote: "They treat you like you matter, no corporate attitude, no being passed around. One person who actually knows my business. My spring bookings are completely full for the first time ever."
   },
   {
     name: "David Chen",
@@ -29,7 +29,7 @@ export const testimonials = [
     location: "Richmond, BC",
     photo: "https://images.pexels.com/photos/1043474/pexels-photo-1043474.jpeg?auto=compress&cs=tinysrgb&w=150",
     stars: 5,
-    quote: "I started getting calls from neighbourhoods I had never reached before. One customer brought his brother-in-law. That guy brought a coworker. The referral loops they built — that was the real surprise."
+    quote: "I started getting calls from neighbourhoods I had never reached before. One customer brought his brother-in-law. That guy brought a coworker. The referral loops they built, that was the real surprise."
   },
   {
     name: "Nicole Tremblay",
@@ -69,6 +69,6 @@ export const testimonials = [
     location: "Burnaby, BC",
     photo: "https://images.pexels.com/photos/775358/pexels-photo-775358.jpeg?auto=compress&cs=tinysrgb&w=150",
     stars: 5,
-    quote: "I run my nail salon alone and I was drowning in slow weeks. Three months with SalesLeadIT and I am booked two full weeks out, consistently. This did not just help my business — it changed my life."
+    quote: "I run my nail salon alone and I was drowning in slow weeks. Three months with SalesLeadIT and I am booked two full weeks out, consistently. This did not just help my business, it changed my life."
   }
 ]
