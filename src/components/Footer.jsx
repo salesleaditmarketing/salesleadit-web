@@ -1,11 +1,12 @@
 import { MessageCircle, Camera, Share2, Send } from 'lucide-react'
+import { Link } from 'react-router-dom'
 import logo from '../assets/sales-lead-it-logo.png'
 
 export default function Footer() {
   return (
     <footer className="bg-sli-navy rounded-t-[3.5rem] pt-24 pb-12 text-white px-6">
       <div className="max-w-7xl mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-20">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-12 mb-20">
           {/* Col 1 — Brand */}
           <div className="space-y-8">
             <img 
@@ -59,7 +60,33 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Col 4 — Newsletter */}
+          {/* Col 4 — Resources */}
+          <div>
+            <h4 className="font-sans font-bold text-lg mb-8">Resources</h4>
+            <ul className="space-y-4 font-sans text-white/50 text-sm">
+              {[
+                { label: "How to Get More Customers", href: "/resources/how-to-get-more-customers-for-small-business-canada" },
+                { label: "Lead Generation Canada", href: "/resources/lead-generation-for-small-business-canada" },
+                { label: "Google Ads for Small Business", href: "/resources/google-ads-for-small-business-canada" },
+                { label: "Local SEO Canada", href: "/resources/local-seo-for-small-business-canada" },
+                { label: "Social Media Marketing", href: "/resources/social-media-marketing-small-business-canada" },
+                { label: "Web Design Canada", href: "/resources/web-design-for-small-business-canada" },
+                { label: "Marketing Agency Surrey BC", href: "/resources/marketing-agency-surrey-bc" },
+                { label: "Exclusive vs Shared Leads", href: "/resources/exclusive-leads-vs-shared-leads-canada" },
+                { label: "AI Automation for Business", href: "/resources/ai-automation-for-small-business-canada" },
+                { label: "Our Results", href: "/resources/salesleadit-results" },
+                { label: "Full FAQ", href: "/resources/faq" },
+              ].map(link => (
+                <li key={link.href}>
+                  <Link to={link.href} className="hover:text-sli-orange transition-colors">
+                    {link.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Col 5 — Newsletter */}
           <div className="space-y-6">
             <h4 className="font-sans font-bold text-lg">Newsletter</h4>
             <p className="font-sans text-white/50 text-sm">Join 500+ local business owners getting free growth tips.</p>

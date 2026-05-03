@@ -18,6 +18,29 @@ export default function GetStartedPage() {
 
   useEffect(() => {
     window.scrollTo(0, 0)
+    
+    // SEO Meta Tags
+    document.title = "Get a Free Leads Audit | SalesLeadIT — Small Business Lead Generation Canada"
+    
+    let metaDesc = document.querySelector('meta[name="description"]')
+    if (metaDesc) {
+      metaDesc.setAttribute("content", "Book your free 15-minute leads audit with SalesLeadIT. We'll show you exactly where new customers are hiding in your market. No obligation. Surrey, BC. Canada-wide.")
+    } else {
+      metaDesc = document.createElement('meta')
+      metaDesc.name = "description"
+      metaDesc.content = "Book your free 15-minute leads audit with SalesLeadIT. We'll show you exactly where new customers are hiding in your market. No obligation. Surrey, BC. Canada-wide."
+      document.head.appendChild(metaDesc)
+    }
+    
+    let linkCanonical = document.querySelector('link[rel="canonical"]')
+    if (linkCanonical) {
+      linkCanonical.setAttribute("href", "https://salesleadit.com/get-started")
+    } else {
+      linkCanonical = document.createElement('link')
+      linkCanonical.rel = "canonical"
+      linkCanonical.href = "https://salesleadit.com/get-started"
+      document.head.appendChild(linkCanonical)
+    }
   }, [])
 
   const nextStep = () => setStep(s => s + 1)
