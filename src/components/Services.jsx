@@ -113,15 +113,7 @@ export default function Services() {
     }
   }, [typewriterText, isDeleting, typewriterIndex])
 
-  const clientRows = [
-    {
-      num: "01",
-      name: "Bro Tent & Party Rentals",
-      tags: ["Social", "Directory"],
-      quote: "Event booking inquiries doubled in the first active month.",
-      imgs: ["https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=600"]
-    }
-  ]
+  const clientRows = []
 
   return (
     <section id="services" className="py-24 bg-sli-bg">
@@ -137,9 +129,12 @@ export default function Services() {
               <span className="font-serif italic text-sli-orange font-bold text-5xl">paying customers.</span>
             </h2>
           </div>
-          <p className="max-w-md text-sli-body text-right">
-            We combine strategy, community data, and family care to deliver qualified local leads. From setup to scale — all done for you.
-          </p>
+          <div className="flex flex-col items-end">
+            <img src="/maple-leaf-sales-lead-it.jpg" alt="Canadian Maple Leaf" className="w-10 h-10 object-contain mb-3 opacity-80" />
+            <p className="max-w-md text-sli-body text-right">
+              We combine strategy, community data, and family care to deliver qualified local leads. From setup to scale — all done for you.
+            </p>
+          </div>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-24">
