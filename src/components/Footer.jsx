@@ -1,4 +1,4 @@
-import { MessageCircle, Camera, Share2, Send } from 'lucide-react'
+import { MessageCircle, Camera, Share2, Youtube } from 'lucide-react'
 import { Link } from 'react-router-dom'
 import logo from '../assets/sales-lead-it-logo.png'
 
@@ -86,20 +86,19 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Col 5 — Newsletter */}
+          {/* Col 5 — YouTube */}
           <div className="space-y-6">
-            <h4 className="font-sans font-bold text-lg">Newsletter</h4>
-            <p className="font-sans text-white/50 text-sm">Join 500+ local business owners getting free growth tips.</p>
-            <div className="relative">
-              <input 
-                type="email" 
-                placeholder="Email Address" 
-                className="w-full bg-white/5 border border-white/10 rounded-full py-4 px-6 focus:outline-none focus:border-sli-orange font-sans text-sm" 
-              />
-              <button className="absolute right-2 top-1.5 p-2.5 bg-sli-orange rounded-full hover:scale-105 transition-transform">
-                <Send className="w-4 h-4" />
-              </button>
-            </div>
+            <h4 className="font-sans font-bold text-lg">YouTube</h4>
+            <p className="font-sans text-white/50 text-sm">Grow local business</p>
+            <a 
+              href="https://youtube.com/@growlocol" 
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-3 bg-sli-orange hover:bg-orange-600 text-white rounded-full py-3 px-6 transition-all font-sans font-bold text-sm w-max"
+            >
+              <Youtube className="w-5 h-5" />
+              Watch on YouTube
+            </a>
           </div>
         </div>
 
