@@ -86,18 +86,18 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Col 5 — YouTube */}
+          {/* Col 5 — Newsletter */}
           <div className="space-y-6">
-            <h4 className="font-sans font-bold text-lg">YouTube</h4>
-            <p className="font-sans text-white/50 text-sm">Grow local business</p>
+            <h4 className="font-sans font-bold text-lg">Newsletter</h4>
+            <p className="font-sans text-white/50 text-sm">Join 500+ local business owners getting free growth tips.</p>
             <a 
               href="https://youtube.com/@growlocol" 
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-3 bg-sli-orange hover:bg-orange-600 text-white rounded-full py-3 px-6 transition-all font-sans font-bold text-sm w-max"
+              className="inline-flex items-center gap-2 bg-sli-orange hover:bg-orange-600 text-white rounded-full py-2 px-4 transition-all font-sans font-bold text-xs w-max"
             >
-              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"/></svg>
-              Watch on YouTube
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"/></svg>
+              Watch there
             </a>
           </div>
         </div>
