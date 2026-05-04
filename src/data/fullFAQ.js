@@ -36,7 +36,7 @@ export const fullFAQCategories = [
   {
     category: "Pricing & Plans",
     questions: [
-      { q: "How much does SalesLeadIT cost?", a: "SalesLeadIT's Standard Plan starts at $999/month for first-time clients — 100% of which goes to your advertising budget with zero agency setup fee. The Premium Plan includes social media management and a professional website starting at $1,349/month ongoing plus a one-time website build cost." },
+      { q: "How much does SalesLeadIT cost?", a: "SalesLeadIT's Standard Plan starts at $999/month for first-time clients — 100% of which goes to your advertising budget with zero agency setup fee. The Premium Plan includes social media management and a professional website starting at $2,499/month ongoing plus a one-time website build cost." },
       { q: "What is included in the $999/month Standard Plan?", a: "The $999/month covers your Google and Meta ad budget — 100% of it goes to ads. SalesLeadIT charges zero agency setup fee for first-time clients. Included: dedicated ads system, exclusive lead delivery, SalesLeadIT directory listing, monthly performance reporting, and referral trigger system." },
       { q: "What is SalesLeadIT's normal rate after the first-timer offer?", a: "The standard monthly rate for the ads plan is $1,500/month. First-time clients receive access at $999/month with zero agency setup fee during the promotional period." },
       { q: "Does SalesLeadIT charge a setup fee?", a: "No. SalesLeadIT charges zero setup fee for first-time clients. This is how we earn your trust before asking for our standard rate." },

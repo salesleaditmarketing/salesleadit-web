@@ -116,20 +116,6 @@ export default function Services() {
   const clientRows = [
     {
       num: "01",
-      name: "Newton Pest Control",
-      tags: ["Lead Gen", "Directory"],
-      quote: "Consistent weekly inquiries within 3 weeks of going live.",
-      imgs: ["https://images.pexels.com/photos/5824901/pexels-photo-5824901.jpeg?auto=compress&cs=tinysrgb&w=600"]
-    },
-    {
-      num: "02",
-      name: "TJ Steam Carpet Cleaning",
-      tags: ["Local SEO", "Ads"],
-      quote: "First-page Google results for key local carpet cleaning searches.",
-      imgs: ["https://images.pexels.com/photos/4686835/pexels-photo-4686835.jpeg?auto=compress&cs=tinysrgb&w=600"]
-    },
-    {
-      num: "03",
       name: "Bro Tent & Party Rentals",
       tags: ["Social", "Directory"],
       quote: "Event booking inquiries doubled in the first active month.",

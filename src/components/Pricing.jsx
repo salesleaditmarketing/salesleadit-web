@@ -157,11 +157,11 @@ export default function Pricing() {
                   </div>
                   <div className="flex justify-between items-baseline">
                     <span className="font-sans text-sli-body text-sm">Social Media Growth:</span>
-                    <span className="font-mono font-bold">$350/month</span>
+                    <span className="font-mono font-bold">$1,500/month</span>
                   </div>
                   <div className="pt-2 flex justify-between items-baseline">
                     <span className="font-sans font-bold text-sli-navy">Monthly total:</span>
-                    <span className="text-2xl font-extrabold text-sli-navy">$1,349/month</span>
+                    <span className="text-2xl font-extrabold text-sli-navy">$2,499/month</span>
                   </div>
                 </div>
                 <div className="space-y-2">
@@ -179,7 +179,11 @@ export default function Pricing() {
               <ul className="space-y-4 mb-12">
                 {[
                   "Everything in Standard Plan",
-                  "Full Social Media Management ($350 value)",
+                  "Management and Support",
+                  "Dedicated Social Media Manager",
+                  "Viral Brand Creator / Content Manager",
+                  "Professional Video Editing",
+                  "Graphics Design + Brand Manager",
                   "Professional business website ($1,499 value)",
                   "Premium hosting & maintenance ($199/mo)",
                   "Bi-weekly strategy sessions",

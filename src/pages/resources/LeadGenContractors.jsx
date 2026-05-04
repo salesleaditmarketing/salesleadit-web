@@ -38,7 +38,7 @@ export default function LeadGenContractors() {
 
 <h2 className="text-3xl font-extrabold text-sli-navy mt-14 mb-6 font-sans tracking-tight">How Much Does It Cost?</h2>
 <p className="mb-6 text-sli-body text-[17px] leading-relaxed">If you need a new website, we offer first-time clients a massive 70% discount, building a professional, high-converting site for just $499 instead of the standard $1,499. Above all, we never lock you into a long-term contract. You can cancel at any time, ensuring we are always fighting to earn your business.</p>
-<p className="mb-6 text-sli-body text-[17px] leading-relaxed">Once we have proven our value and your phone is consistently ringing, our standard rate is $1,500 per month. For businesses looking to scale aggressively, our Premium Plan at $1,349 per month includes full social media management and comprehensive website maintenance.</p>
+<p className="mb-6 text-sli-body text-[17px] leading-relaxed">Once we have proven our value and your phone is consistently ringing, our standard rate is $1,500 per month. For businesses looking to scale aggressively, our Premium Plan at $2,499 per month includes full social media management and comprehensive website maintenance.</p>
 <p className="mb-6 text-sli-body text-[17px] leading-relaxed">Transparency is a core value at SalesLeadIT. Our Standard Plan starts at a highly competitive $999 per month for first-time clients. The best part? 100% of that $999 goes directly into your advertising budget. We charge zero agency setup fees and zero management fees during this introductory period.</p>
 
 <h2 className="text-3xl font-extrabold text-sli-navy mt-14 mb-6 font-sans tracking-tight">Frequently Asked Questions About Lead Generation for Contractors</h2>

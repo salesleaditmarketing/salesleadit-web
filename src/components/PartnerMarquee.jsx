@@ -1,7 +1,8 @@
-import { clients } from '../data/clients'
+import { testimonials } from '../data/testimonials'
 
 export default function PartnerMarquee() {
-  const marqueeItems = [...clients, ...clients, ...clients]
+  // Use the generic niche photos from testimonials
+  const marqueeItems = [...testimonials, ...testimonials]
 
   return (
     <section className="py-20 bg-sli-bg overflow-hidden">
@@ -14,16 +15,16 @@ export default function PartnerMarquee() {
       <div className="flex flex-col gap-6">
         {/* Row 1 */}
         <div className="marquee-r flex">
-          {marqueeItems.map((client, i) => (
+          {marqueeItems.slice(0, 9).map((t, i) => (
             <div key={i} className="flex-shrink-0 mx-3 rounded-[1.25rem] overflow-hidden relative w-52 h-36 ring-1 ring-sli-border">
               <img 
-                src={client.img} 
+                src={t.photo} 
                 crossOrigin="anonymous" 
-                alt={client.name}
+                alt={t.role}
                 className="w-full h-full object-cover object-center" 
               />
               <div className="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black/70 to-transparent p-3">
-                <p className="font-mono text-white text-[10px]">{client.name}</p>
+                <p className="font-mono text-white text-[10px]">{t.role}</p>
               </div>
             </div>
           ))}
@@ -31,16 +32,16 @@ export default function PartnerMarquee() {
 
         {/* Row 2 */}
         <div className="marquee-l flex">
-          {marqueeItems.map((client, i) => (
+          {marqueeItems.slice(9).map((t, i) => (
             <div key={i} className="flex-shrink-0 mx-3 rounded-[1.25rem] overflow-hidden relative w-52 h-36 ring-1 ring-sli-border">
               <img 
-                src={client.img} 
+                src={t.photo} 
                 crossOrigin="anonymous" 
-                alt={client.name}
+                alt={t.role}
                 className="w-full h-full object-cover object-center" 
               />
               <div className="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black/70 to-transparent p-3">
-                <p className="font-mono text-white text-[10px]">{client.name}</p>
+                <p className="font-mono text-white text-[10px]">{t.role}</p>
               </div>
             </div>
           ))}
