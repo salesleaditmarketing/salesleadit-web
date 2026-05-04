@@ -130,7 +130,7 @@ export default function Services() {
             </h2>
           </div>
           <div className="flex flex-col items-end">
-            <img src="/maple-leaf-sales-lead-it.jpg" alt="Canadian Maple Leaf" className="w-10 h-10 object-contain mb-3 opacity-80" />
+            <img src="/maple-leaf-sales-lead-it.jpg" alt="Canadian Maple Leaf" className="w-32 h-32 object-contain mb-3 opacity-80" />
             <p className="max-w-md text-sli-body text-right">
               We combine strategy, community data, and family care to deliver qualified local leads. From setup to scale — all done for you.
             </p>
