@@ -75,27 +75,6 @@ export default function Testimonials() {
           ))}
         </div>
 
-        {/* Family Wall */}
-        <div className="mt-20">
-          <p className="font-mono text-sli-muted text-xs text-center uppercase tracking-widest mb-8">
-            Businesses we have personally worked with
-          </p>
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
-            {clients.map((c, i) => (
-              <div key={i} className="rounded-card overflow-hidden aspect-video relative group">
-                <img 
-                  src={c.img} 
-                  crossOrigin="anonymous" 
-                  alt={c.name}
-                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" 
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex items-end p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  <p className="font-mono text-white text-[10px] font-bold">{c.name}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
       </div>
     </section>
   )
