@@ -81,10 +81,10 @@ export default async function handler(req, res) {
             title: [{ text: { content: fullName || 'Unknown' } }]
           },
           "Business Name": {
-            rich_text: [{ text: { content: businessName || '' } }]
+            rich_text: [{ text: { content: businessName || 'Not Provided' } }]
           },
           "Business Category": {
-            rich_text: [{ text: { content: businessCategory || '' } }]
+            rich_text: [{ text: { content: businessCategory || 'Not Provided' } }]
           },
           "Growth Goal": {
             select: { name: growthGoal || 'Not specified' }
