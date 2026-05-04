@@ -213,7 +213,7 @@ export default function GetStartedPage() {
               </div>
               <h2 className="font-sans font-extrabold text-4xl text-sli-navy mb-4">You're in. We'll be in touch.</h2>
               <p className="text-sli-body text-lg mb-12 max-w-lg leading-relaxed">
-                Your audit request has been received. One of our family team members will reach out within 24 hours to schedule your free 15-minute leads audit. Check your email at <strong className="text-sli-navy">{formData.email}</strong> for confirmation.
+                Your audit request has been received! We've just sent an email to <strong className="text-sli-navy">{formData.email}</strong> with your next steps. Please check your inbox immediately. One of our family team members will reach out within 24 hours to schedule your free 15-minute leads audit.
               </p>
             </div>
           ) : (
