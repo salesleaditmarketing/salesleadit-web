@@ -28,6 +28,10 @@ import ExclusiveVsSharedLeads from './pages/resources/ExclusiveVsSharedLeads.jsx
 import SalesLeadITResults from './pages/resources/SalesLeadITResults.jsx'
 import FullFAQ from './pages/resources/FullFAQ.jsx'
 
+// Legal Pages
+import PrivacyPolicy from './pages/legal/PrivacyPolicy.jsx'
+import TermsConditions from './pages/legal/TermsConditions.jsx'
+
 export default function App() {
   return (
     <Routes>
@@ -59,6 +63,10 @@ export default function App() {
       <Route path="/resources/exclusive-leads-vs-shared-leads-canada" element={<ExclusiveVsSharedLeads />} />
       <Route path="/resources/salesleadit-results" element={<SalesLeadITResults />} />
       <Route path="/resources/faq" element={<FullFAQ />} />
+
+      {/* Legal Routes */}
+      <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+      <Route path="/terms-and-conditions" element={<TermsConditions />} />
     </Routes>
   )
 }

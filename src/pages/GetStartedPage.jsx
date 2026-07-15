@@ -420,7 +420,7 @@ export default function GetStartedPage() {
                   </div>
 
                   <p className="text-center text-sli-body text-xs mt-12 font-sans px-12">
-                    By submitting, you agree to our <a href="#" className="underline">Privacy Policy</a> and <a href="#" className="underline">Terms</a>. One of our family members will reach out within 24 hours.
+                    By submitting, you agree to our <Link to="/privacy-policy" className="underline">Privacy Policy</Link> and <Link to="/terms-and-conditions" className="underline">Terms</Link>. One of our family members will reach out within 24 hours.
                   </p>
                 </div>
               )}
